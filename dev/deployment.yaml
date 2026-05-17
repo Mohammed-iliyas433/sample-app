@@ -14,6 +14,6 @@ spec:
     spec:
       containers:
       - name: dev-container
-        image: qwiklabs-gcp-04-cd38befb977b
+        image: gcr.io/qwiklabs-gcp-04-cd38befb977b/dev-image:v2.0
         ports:
         - containerPort: 8080
